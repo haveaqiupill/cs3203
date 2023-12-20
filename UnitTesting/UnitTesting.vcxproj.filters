@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Mocks">
+      <UniqueIdentifier>{624bbbeb-b5dc-4780-81f1-b6c945fbf536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PKB">
+      <UniqueIdentifier>{8baf6f96-9b37-4c55-9f87-996e32a18dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PQL">
+      <UniqueIdentifier>{6e0c524f-5149-4ad8-b080-06fbd4bfceee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PQL\QP">
+      <UniqueIdentifier>{4fb2ffb3-029f-4846-a9b9-d42faf3d0cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PQL\QE">
+      <UniqueIdentifier>{e0184930-999f-474d-8290-bf26e5410d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PQL\Optimiser">
+      <UniqueIdentifier>{16901926-b620-40d8-a16d-71f1ac6c8145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{53371888-be40-4a66-b6f2-534153568fe9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKB\TestPKB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKBMock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractParserMock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryTestHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestUtilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKBMock.cpp">
+      <Filter>Source Files\Mocks</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractParserMock.cpp">
+      <Filter>Source Files\Mocks</Filter>
+    </ClCompile>
+    <ClCompile Include="PKB\TestPKBSetter.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="PKB\TestPKBSort.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="PKB\TestPKBNextBip.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="PKB\TestPKBCalls.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="PKB\TestPKBNext.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestQueryManager.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestQueryResultProjector.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestParentEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestSuchThatEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestAffectsEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestAffectsStarEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestNextStarEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestWithEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestQueryParser.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestQueryParserUtility.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\QueryTestHelper.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestSelectBoolean.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestWithOptimiser.cpp">
+      <Filter>Source Files\PQL\Optimiser</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestQueryEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestEvaluatorUtility.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestQueryValidator.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestResultTable.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProcParser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="TestParserCommons.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProgramParser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="TestStmtListParser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="TestStmtParser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="PKB\TestPKBUses.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="PKB\TestPKBParent.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="PKB\TestPKBModifies.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="PKB\TestPKBFollows.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="PKB\TestPKBDesignEntities.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="PKB\TestPKBPattern.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestCallsEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestCallsStarEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestFollowsEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestFollowsStarEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestModifiesEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestNextEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestParentStarEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="PQL\TestUsesEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
